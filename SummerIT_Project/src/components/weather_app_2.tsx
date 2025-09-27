@@ -84,7 +84,6 @@ const weather_APP_2 = () => {
 
     return (
         <div className="flex flex-col min-h-screen bg-gradient-to-b from-[#E0F7FA] to-[#F3F4F6] p-4">
-            {/* City Selector */}
             <div className="bg-white rounded-xl shadow-md p-4 mb-6">
                 <AsyncSelect
                     cacheOptions
@@ -102,7 +101,6 @@ const weather_APP_2 = () => {
                 />
             </div>
 
-            {/* Current Weather */}
             <div className="flex flex-col items-center bg-white rounded-xl shadow-md p-6 mb-6">
                 <div className="flex items-center mb-2">
                     <img
@@ -117,7 +115,6 @@ const weather_APP_2 = () => {
                 <div className="text-gray-600">{date}</div>
             </div>
 
-            {/* Weather Details */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
                 <div className="flex flex-col items-center bg-white p-4 rounded-xl shadow hover:shadow-lg transition-shadow">
                     <FaWind className="w-8 h-8 text-blue-400 mb-2" />
@@ -136,7 +133,6 @@ const weather_APP_2 = () => {
                 </div>
             </div>
 
-            {/* Forecast */}
             <div className="bg-white rounded-xl shadow-md p-4 flex justify-between overflow-x-auto">
                 {forecastData
                     ? forecastData.forecast.forecastday.map((day: any, index: number) => (
