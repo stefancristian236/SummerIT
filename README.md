@@ -5,3 +5,5 @@ In order to run the project, besides the node.js and react libraries you also ne
 After acquiring the API key you also need to make a new folder ***/src/.env***;
 
 In .env you need to add the ***PORT=3000*** and also ***KEY= "your api key here"***
+
+In the end run in separte terminals in youf file directory ***npm run server*** and ***npm run dev*** in order the activate the backend and frontend.
